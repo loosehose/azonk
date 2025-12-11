@@ -11,8 +11,6 @@
 
 SharePoint/OneDrive Secrets Finder - Automated credential hunting with Azure AD enumeration.
 
-**Made with <3 by loosehose**
-
 ## Features
 
 - **Native Device Code Authentication** - No dependencies on external tools
@@ -35,9 +33,6 @@ cd azonk
 
 # Download dependencies
 go mod tidy
-
-# Build for current OS
-go build -o azonk ./cmd/azonk
 
 # Cross-compile for Windows
 GOOS=windows GOARCH=amd64 go build -o azonk.exe ./cmd/azonk
