@@ -1,0 +1,21 @@
+# Binaries
+azonk
+azonk.exe
+*.exe~
+
+# Output directories
+azonk_output/
+output/
+
+# Token cache (contains secrets)
+tokens.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
